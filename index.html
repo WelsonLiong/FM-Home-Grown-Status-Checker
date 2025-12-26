@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FM Home-Grown Status Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>FM Home-Grown Status Checker</h1>
+    <p class="subtitle">by Welson Liong</p>
+
+    <form id="hgcForm">
+        <div class="input-group">
+            <label for="dob">Date of Birth</label>
+            <input type="text" id="dob" placeholder="DD/MM/YYYY" inputmode="numeric" maxlength="10">
+        </div>
+
+        <div class="input-group">
+            <label for="joinDate">Contract Start Date</label>
+            <input type="text" id="joinDate" placeholder="DD/MM/YYYY" inputmode="numeric" maxlength="10">
+        </div>
+
+        <button type="submit" id="checkBtn">Check Status</button>
+    </form>
+    <div id="result"></div>
+
+    <div class="info-box">
+        <ul>
+            <li>A 18 y/o player cannot get HGC status if you loaned him out to other clubs during that 3 years.</li>
+            <li>That player only can get HGN (not HGC) only if you loan him to a club in the same nation.</li>
+        </ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script data-goatcounter="https://welsonliong.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>
